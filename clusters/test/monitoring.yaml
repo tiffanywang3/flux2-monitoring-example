@@ -20,6 +20,11 @@ kind: Kustomization
 metadata:
   name: monitoring-configs
   namespace: flux-system
+  labels:
+    test: 12345
+  annotations:
+    test: 67890
+    tw.com/id-number: 12345
 spec:
   dependsOn:
     - name: monitoring-controllers

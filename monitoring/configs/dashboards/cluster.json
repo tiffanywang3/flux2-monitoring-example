@@ -600,7 +600,10 @@
               "namespace": 11,
               "pod": 12,
               "ready": 13,
-              "service": 14
+              "service": 14,
+              "test_label": 15,
+              "test_annotation": 16,
+              "test_tw": 17
             },
             "renameByName": {
               "Value": "",
@@ -609,7 +612,10 @@
               "kind": "Kind",
               "name": "Name",
               "namespace": "Operator Namespace",
-              "ready": "Status"
+              "ready": "Status",
+              "test_label": "Label",
+              "test_annotation": "Annotation",
+              "test_tw": "Test TW"
             }
           }
         },
@@ -617,7 +623,7 @@
           "id": "filterFieldsByName",
           "options": {
             "include": {
-              "pattern": "(Namespace|Kind|Name|Status)"
+              "pattern": "(Namespace|Kind|Name|Status|Label|Annotation)"
             }
           }
         }

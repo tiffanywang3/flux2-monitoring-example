@@ -54,6 +54,7 @@ kube-state-metrics:
                   source_name: [ spec, sourceRef, name ]
                   test_label: [ metadata, labels, test ]
                   test_annotation: [ metadata, annotations, test ]
+                  test_tw: [ metadata, annotations, "tw.com/id-number" ]
           - groupVersionKind:
               group: helm.toolkit.fluxcd.io
               version: v2
@@ -78,6 +79,7 @@ kube-state-metrics:
                   chart_source_name: [ spec, chart, spec, sourceRef, name ]
                   test_label: [ metadata, labels, test ]
                   test_annotation: [ metadata, annotations, test ]
+                  test_tw: [ metadata, annotations, "tw.com/id-number" ]
           - groupVersionKind:
               group: source.toolkit.fluxcd.io
               version: v1

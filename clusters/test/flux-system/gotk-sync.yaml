@@ -18,6 +18,11 @@ kind: Kustomization
 metadata:
   name: flux-system
   namespace: flux-system
+  labels:
+    test: hello
+  annotations:
+    test: goodbye
+    tw.com/id-number: 12345
 spec:
   interval: 10m0s
   path: ./clusters/test
