@@ -615,7 +615,7 @@
               "ready": "Status",
               "test_label": "Label",
               "test_annotation": "Annotation",
-              "test_tw": "Test TW"
+              "test_tw": "TW"
             }
           }
         },
@@ -623,7 +623,7 @@
           "id": "filterFieldsByName",
           "options": {
             "include": {
-              "pattern": "(Namespace|Kind|Name|Status|Label|Annotation)"
+              "pattern": "(Namespace|Kind|Name|Status|Label|Annotation|TW)"
             }
           }
         }
